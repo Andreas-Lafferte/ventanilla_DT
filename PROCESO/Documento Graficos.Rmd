@@ -1,0 +1,27 @@
+---
+title: "Documento de principales Gráficos (prototipo)"
+author: "Observatorio sindical"
+date: "04-12-2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sindicatos y socios/as
+
+```{r}
+graficos<-list.files("../OUTPUT/Graficos", pattern=NULL, all.files=FALSE, full.names=FALSE)
+
+```
+
+
+![](`r paste0("../OUTPUT/Graficos/",graficos[1])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[2])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[3])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[4])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[5])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[6])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[7])`)
+![](`r paste0("../OUTPUT/Graficos/",graficos[8])`)
