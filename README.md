@@ -11,4 +11,3 @@ Se quitan los identificadores directos de los sindicatos, dirigentes y empresas,
 Se elaboran estadísticos descriptivos y gráficos básicos, que se guardan en OUTPUT. 
 
 *Datos de la ventanilla descargados por última vez el 01 de diciembre de 2020. 
-
