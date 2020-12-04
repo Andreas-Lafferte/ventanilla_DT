@@ -2,7 +2,9 @@
 title: "Documento de principales Gráficos (prototipo)"
 author: "Observatorio sindical"
 date: "04-12-2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Sindicatos y socios/as
 
-```{r}
+```{r results=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
 graficos<-list.files("../OUTPUT/Graficos", pattern=NULL, all.files=FALSE, full.names=FALSE)
 
 ```
